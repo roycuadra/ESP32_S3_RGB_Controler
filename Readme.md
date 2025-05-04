@@ -1,4 +1,4 @@
-# 🌈 ESP32-S3 RGB LED Web Controller (Access Point Mode)
+# ESP32-S3 RGB LED Web Controller (Access Point Mode)
 
 Control the **built-in RGB LED** of your ESP32-S3 DevKit over Wi-Fi using a **self-hosted web interface**. This project sets up the ESP32-S3 as a Wi-Fi **Access Point**, serves a sleek **HTML color picker**, and updates the RGB LED in real time based on your selection.
 
@@ -20,16 +20,12 @@ Control the **built-in RGB LED** of your ESP32-S3 DevKit over Wi-Fi using a **se
 ### 🎨 Web UI Interface
 > Color picker with responsive layout
 
-<div align="center">
-  <img src="./image/image1.png" alt="Web UI Screenshot" style="max-width: 90%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
-</div>
+<img src="./image/image1.png" alt="Web UI Screenshot" width="700"/>
 
 ### 💡 Real-time LED Control
 > LED reflects selected color instantly
 
-<div align="center">
-  <img src="./image/image2.jpg" alt="LED Demo" style="max-width: 90%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
-</div>
+<img src="./image/image2.jpg" alt="LED Demo" width="400"/>
 
 ---
 
