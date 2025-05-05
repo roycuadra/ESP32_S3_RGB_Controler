@@ -14,21 +14,6 @@ Control the **built-in RGB LED** of your ESP32-S3 DevKit over Wi-Fi using a **se
 - 🌐 Lightweight web server using ESP32 WebServer library
 
 ---
-
-## 📸 Screenshots
-
-### 🎨 Web UI Interface
-> Color picker with responsive layout
-
-<img src="./image/image1.png" alt="Web UI Screenshot" width="700"/>
-
-### 💡 Real-time LED Control
-> LED reflects selected color instantly
-
-<img src="./image/image2.jpg" alt="LED Demo" width="400"/>
-
----
-
 ## 🔧 Hardware Requirements
 
 - ✅ ESP32-S3 DevKit (with built-in RGB LED, usually on **GPIO 48**)
@@ -41,13 +26,27 @@ Control the **built-in RGB LED** of your ESP32-S3 DevKit over Wi-Fi using a **se
 ## 🛠️ Setup Instructions
 
 1. **Connect** your ESP32-S3 to your PC.
-2. **Install** the "Adafruit NeoPixel" library via Arduino Library Manager.
+2. **Install** the "[Adafruit NeoPixel library](https://github.com/adafruit/Adafruit_NeoPixel)" library via Arduino Library Manager.
 3. **Upload** the sketch provided in this repo to your board.
 4. Open **Serial Monitor** (115200 baud) to get the IP address (`192.168.4.1`).
 5. Connect to the Wi-Fi network:
    - SSID: `ESP32_RGB_Control`
    - Password: `12345678`
 6. Open a browser and go to `http://192.168.4.1`.
+
+---
+
+## 📸 Screenshots
+
+### 🎨 Web UI Interface
+> Color picker with responsive layout
+
+<img src="./image/image1.png" alt="Web UI Screenshot" width="700"/>
+
+### 💡 Real-time LED Control
+> LED reflects selected color instantly
+
+<img src="./image/image2.jpg" alt="LED Demo" width="400"/>
 
 ---
 
