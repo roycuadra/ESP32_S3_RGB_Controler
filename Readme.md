@@ -14,6 +14,12 @@ Control the **built-in RGB LED** of your ESP32-S3 DevKit over Wi-Fi using a **se
 - 🌐 Lightweight web server using ESP32 WebServer library
 
 ---
+
+# Disclaimer
+
+This project is for educational and experimental purposes only. The creator is not responsible for any damage, injury, or loss caused by using this project. Always handle electronics safely and operate the device in a controlled environment.
+
+--- 
 ## 🔧 Hardware Requirements
 
 - ✅ ESP32-S3 DevKit (with built-in RGB LED, usually on **GPIO 48**)
